@@ -1,0 +1,7 @@
+Create Room
+Join Room 
+
+
+
+Create Room --> base64(socket.id) --> Redirect to Board --> if Room contains two player start.
+Join Room --> base64 -d (key) --> 
