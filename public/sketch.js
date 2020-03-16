@@ -98,7 +98,7 @@ let sketch = function(p) {
                 coordinates=[i,j]
                 data = {room: Cookies.get('room'), msg: coordinates};
                 socket.emit('message',data);
-                //locked=true;
+                locked=true;
             }
         }
     }
